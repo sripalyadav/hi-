@@ -1,0 +1,36 @@
+
+create table friuts(friut_id number primary key,friuts_name varchar(20),friut_price int);
+
+drop table friuts;
+
+
+insert into friuts values(1,'apple',200);
+
+
+insert all 
+
+into friuts values(2,'grapes',150)
+
+into friuts values(3,'banana',100)
+
+into friuts values(4,'orange',75)
+
+select *from dual;
+
+select * from friuts;
+
+select *from friuts where friut_price<150; 
+
+
+
+truncate table friuts;
+
+
+update friuts set friut_price=141 ,friuts_name='banssaa' where friut_id=4;
+
+
+delete friuts where friut_price<300;
+
+delete friuts where friut_price>99;
+
+delete friuts where friut_id=4;
